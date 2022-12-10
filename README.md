@@ -18,7 +18,7 @@ Slicing Report Page made using Next js as a framework and Tailwindcss as styling
 ## Requirements
 
 1. [Node js](https://nodejs.org)
-2. Node_modules, type in terminal `npm install or yarn
+2. Node_modules, type in terminal `npm install or yarn`
 
 ## How to run app?
 
