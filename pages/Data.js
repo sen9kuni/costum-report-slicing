@@ -121,7 +121,7 @@ export const CompaintByStatusAndInvestigator = [
     complainName: 'Ticket Open',
     complainName2: 'Ticket Closed',
     complainPoint: 50,
-    complainPoint2: 200,
+    complainPoint2: 175,
     color: '#DC67AC',
     color2: '#6771DC',
   },
