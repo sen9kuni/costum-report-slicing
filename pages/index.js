@@ -75,13 +75,13 @@ export default function Home() {
         <SideMenu />
         <div className='col-span-9 bg-blue-150 p-[20px] bg-blue-50'>
           <div className='w-full h-full bg-white flex flex-col gap-3'>
-            <div className='w-full rounded-lg bg-white h-[57px] flex justify-start items-center px-[25px] shadow-sm gap-3'>
+            <div className='w-full rounded-lg bg-white h-[57px] flex justify-start items-center px-[25px] gap-3'>
               <BsBarChartFill size={20} color='#445AD2' />
-              <span>Complaint Report</span>
+              <span className='font-bold text-base'>Complaint Report</span>
             </div>
             <div className='w-full px-[24px] py-[38px] bg-white min-h-[50px]'>
               <div className='flex flex-row justify-between items-center'>
-                <span className='font-bold text-lg'>Complaint Report</span>
+                <span className='font-normal text-2xl'>Complaint Report</span>
                 <button className='h-[32px] w-[170px] bg-[#445AD2] rounded-md flex flex-row justify-between items-center px-[16px] text-white active:bg-white active:text-[#445AD2] active:border-2 active:border-slate-300'>
                   <BsFillArrowDownCircleFill size={18} />
                   <span className='text-sm font-bold'>Download Report</span>
