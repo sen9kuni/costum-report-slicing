@@ -5,8 +5,7 @@ import ButtonTable from './ButtonTable'
 import LineTable from './LineTable'
 
 export default function TabelHistory({ label }) {
-  const data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-  const [dataTabel, setDataTable] = useState(ComplaintHistory)
+  const [dataTabel] = useState(ComplaintHistory)
   return (
     <div className='w-full p-[42px] flex flex-col gap-2'>
       <div className='flex flex-row justify-between items-center mb-5'>

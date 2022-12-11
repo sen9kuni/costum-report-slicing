@@ -23,8 +23,8 @@ const option = {
 
 export default function StackCharts({ dataSet, label, dataLabel }) {
   return (
-    <div className='bg-white w-full p-[42px] rounded-lg'>
-      <div className='flex flex-row justify-between items-center mb-5'>
+    <div className='bg-white w-full flex flex-col items-center p-[42px] rounded-lg'>
+      <div className='w-full flex flex-row justify-between items-center mb-5'>
         <span className='font-bold text-xl'>{label}</span>
         <div className='flex flex-row gap-3 items-center'>
           <Selector />
@@ -33,7 +33,17 @@ export default function StackCharts({ dataSet, label, dataLabel }) {
           </button>
         </div>
       </div>
-      <Bar data={dataSet} options={option} />
+      <div className='w-full flex flex-row justify-between'>
+        <span
+          className='rotate-180 text-center font-medium text-[#525759]'
+          style={{ writingMode: 'vertical-rl' }}
+        >
+          Total Ticket
+        </span>
+        <div className='w-[1000px] '>
+          <Bar data={dataSet} options={option} />
+        </div>
+      </div>
       <div className='w-full h-full px-10 flex flex-wrap justify-center gap-1 mt-3'>
         <LabelChart
           background={dataLabel.bgColor}
