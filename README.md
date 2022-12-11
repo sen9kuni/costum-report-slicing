@@ -1,5 +1,6 @@
 # Costume Report Slicing
 
+Note: some chart have change so some picture is outdated
 ![header and doungnut chart](/screenshoot/header.png)
 ![bar chart](/screenshoot/bar.png)
 ![stack chart](/screenshoot/stack.png)
