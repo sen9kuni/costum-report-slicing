@@ -46,7 +46,11 @@ export default function Header() {
             <span className='text-xs font-light text-slate-600'>Operator</span>
           </div>
           <div className='w-[40px] h-[40px] rounded-full overflow-hidden bg-white relative hover:cursor-pointer'>
-            <Image src={'/images/profile.png'} layout='fill' />
+            <Image
+              src={'/images/profile.png'}
+              layout='fill'
+              alt='img profile'
+            />
           </div>
         </div>
       </div>
